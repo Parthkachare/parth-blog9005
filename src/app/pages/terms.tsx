@@ -103,10 +103,10 @@ export default function Terms() {
             <p>
               If you have any questions about these Terms, please contact us at:{" "}
               <a
-                href="mailto:hello@parthkachare.com"
+                href="mailto:parthuidesigns@gmail.com"
                 className="text-[#FF7A00] hover:underline"
               >
-                hello@parthkachare.com
+                parthuidesigns@gmail.com
               </a>
             </p>
           </div>

@@ -82,10 +82,10 @@ export default function Privacy() {
               If you have questions about this Privacy Policy, please contact us
               at:{" "}
               <a
-                href="mailto:contact@parthblog.space"
+                href="mailto:parthuidesigns@gmail.com"
                 className="text-[#FF7A00] hover:underline"
               >
-                contact@parthblog.space
+                parthuidesigns@gmail.com
               </a>
             </p>
           </div>
