@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Sitemap: https://parthblog.space/sitemap.xml
+
+# Google AdSense
+User-agent: Mediapartners-Google
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
