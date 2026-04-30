@@ -92,7 +92,7 @@ export default function Contact() {
                 href="mailto:contact@parthblog.space"
                 className="text-[#FF7A00] hover:underline"
               >
-                contact@parthblog.space
+                parthuidesigns@gmail.com
               </a>
             </div>
 

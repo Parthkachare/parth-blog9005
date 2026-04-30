@@ -69,7 +69,7 @@ export default function About() {
                 asChild
               >
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Parthkachare"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -79,7 +79,7 @@ export default function About() {
               </Button>
               <Button variant="outline" asChild>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/parthkachare"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -89,7 +89,7 @@ export default function About() {
               </Button>
               <Button variant="outline" asChild>
                 <a
-                  href="https://twitter.com"
+                  href="https://twitter.com/ParthKachare"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -98,7 +98,7 @@ export default function About() {
                 </a>
               </Button>
               <Button variant="outline" asChild>
-                <a href="mailto:hello@parthkachare.com">
+                <a href="mailto:parthuidesigns@gmail.com">
                   <Mail className="w-4 h-4 mr-2" />
                   Email
                 </a>
@@ -110,11 +110,11 @@ export default function About() {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="bg-card border border-border rounded-2xl p-6 text-center">
-            <div className="text-3xl font-bold text-[#FF7A00] mb-2">100+</div>
+            <div className="text-3xl font-bold text-[#FF7A00] mb-2">10+</div>
             <div className="text-sm text-muted-foreground">Articles</div>
           </div>
           <div className="bg-card border border-border rounded-2xl p-6 text-center">
-            <div className="text-3xl font-bold text-[#FF7A00] mb-2">50K+</div>
+            <div className="text-3xl font-bold text-[#FF7A00] mb-2">1K+</div>
             <div className="text-sm text-muted-foreground">Readers</div>
           </div>
           <div className="bg-card border border-border rounded-2xl p-6 text-center">
