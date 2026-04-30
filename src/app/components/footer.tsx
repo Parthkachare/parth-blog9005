@@ -6,10 +6,10 @@ import { motion } from "motion/react";
 
 export function Footer() {
   const socialLinks = [
-    { href: "https://github.com", icon: Github, label: "GitHub" },
-    { href: "https://linkedin.com", icon: Linkedin, label: "LinkedIn" },
-    { href: "https://twitter.com", icon: Twitter, label: "Twitter" },
-    { href: "mailto:hello@parthkachare.com", icon: Mail, label: "Email" },
+    { href: "https://github.com/Parthkachare", icon: Github, label: "GitHub" },
+    { href: "https://www.linkedin.com/in/parthkachare", icon: Linkedin, label: "LinkedIn" },
+    { href: "https://twitter.com/ParthKachare", icon: Twitter, label: "Twitter" },
+    { href: "mailto:parthuidesigns@gmail.com", icon: Mail, label: "Email" },
   ];
 
   const quickLinks = [
