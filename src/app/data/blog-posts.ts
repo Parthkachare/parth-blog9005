@@ -633,5 +633,127 @@ Always design mobile-first.
 
 Avoiding these mistakes improves design quality.
 `
+},
+{
+  id: "17",
+  title: "How to Stay Consistent as a Developer",
+  excerpt: "Simple strategies to stay consistent while learning and building projects.",
+  image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+  category: "Productivity",
+  date: "May 1, 2026",
+  readTime: "9 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+Consistency is one of the biggest challenges developers face. Many start learning with high motivation but struggle to continue over time.
+
+## Why Consistency Matters
+
+Learning development is not about intensity but about regular effort. Even small daily progress builds strong skills over time.
+
+## Set Clear Goals
+
+Instead of saying "I will learn React", break it into small tasks like:
+- Build a component
+- Learn hooks
+- Create a mini project
+
+## Build Daily Habits
+
+Spending just 1–2 hours daily is more effective than long irregular sessions.
+
+## Avoid Burnout
+
+Take breaks and don’t overload yourself. Learning should be sustainable.
+
+## Track Progress
+
+Keep a journal or notes of what you learn daily.
+
+## Conclusion
+
+Consistency is the key to growth. Small daily efforts lead to big results.
+`
+},
+
+{
+  id: "18",
+  title: "Why Every Developer Should Build Projects",
+  excerpt: "Understand why real projects matter more than tutorials in learning development.",
+  image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+  category: "Development",
+  date: "May 2, 2026",
+  readTime: "9 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+Many developers spend too much time watching tutorials but struggle to build real projects.
+
+## Tutorials vs Real Learning
+
+Tutorials are helpful, but real learning happens when you apply knowledge.
+
+## Problem Solving
+
+Projects force you to think, debug, and solve real problems.
+
+## Builds Confidence
+
+Completing a project gives a strong sense of achievement and boosts confidence.
+
+## Portfolio Advantage
+
+Projects are the best way to showcase your skills to recruiters.
+
+## Learn Faster
+
+You remember concepts better when you use them in real scenarios.
+
+## Conclusion
+
+Stop waiting for perfection. Start building projects and learn along the way.
+`
+},
+
+{
+  id: "19",
+  title: "How I Built My Blog Using React and Vite",
+  excerpt: "A complete breakdown of how I designed and developed my blog.",
+  image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+  category: "Web Development",
+  date: "May 3, 2026",
+  readTime: "10 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+Building a personal blog is one of the best ways to showcase your skills and share your knowledge.
+
+## Planning the Structure
+
+I started by planning the layout including homepage, blog section, and additional pages like About and Contact.
+
+## Designing the UI
+
+I focused on clean design, readability, and proper spacing to improve user experience.
+
+## Development
+
+I used React for building components and Vite for fast development and performance.
+
+## Deployment
+
+The website was deployed using Vercel with a custom domain setup.
+
+## Challenges Faced
+
+Handling routing, structuring components, and optimizing performance were some challenges I overcame.
+
+## Conclusion
+
+This project helped me improve both technical skills and design thinking. Building real projects is the best way to learn.
+`
 }
 ];
