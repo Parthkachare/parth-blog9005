@@ -755,5 +755,164 @@ Handling routing, structuring components, and optimizing performance were some c
 
 This project helped me improve both technical skills and design thinking. Building real projects is the best way to learn.
 `
+},
+{
+  id: "27",
+  title: "How Open Source Projects Help Developers Grow",
+  excerpt: "Discover how contributing to open source can improve your coding skills and career opportunities.",
+  image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+  category: "Development",
+  date: "May 11, 2026",
+  readTime: "10 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+Open source development has become one of the best ways for developers to learn and grow. Instead of working only on personal projects, contributing to open source exposes developers to real-world codebases and professional workflows. Many successful developers started their journey through open source contributions.
+
+## Learning from Real Projects
+
+Open source projects help developers understand how large applications are structured. You get to see folder organization, component architecture, naming conventions, and coding standards used by experienced developers.
+
+## Collaboration and Teamwork
+
+Contributing to open source teaches communication and collaboration. Developers interact through issues, pull requests, and code reviews. These are real industry practices used in software companies.
+
+## Career Advantages
+
+Recruiters often value open source contributions because they demonstrate practical experience. A strong GitHub profile can improve internship and job opportunities.
+
+## Conclusion
+
+Open source is more than just free code. It is an opportunity to learn, collaborate, and build a strong developer profile while contributing to the community.
+`
+},
+
+{
+  id: "28",
+  title: "How to Improve Website Accessibility",
+  excerpt: "Learn why accessibility matters and how to make websites usable for everyone.",
+  image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+  category: "Accessibility",
+  date: "May 12, 2026",
+  readTime: "10 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+Accessibility is an important part of web development that is often ignored by beginners. A good website should be usable by everyone, including people with disabilities. Accessibility improvements not only help users but also improve SEO and overall user experience.
+
+## Proper Color Contrast
+
+Text should always have enough contrast against the background. Poor contrast makes content difficult to read, especially for visually impaired users.
+
+## Keyboard Navigation
+
+Users should be able to navigate websites using only the keyboard. Buttons, forms, and menus should be accessible without a mouse.
+
+## Semantic HTML
+
+Using proper HTML tags such as headings, buttons, and forms helps screen readers understand the page structure.
+
+## Conclusion
+
+Accessible websites are more inclusive, user-friendly, and professional. Accessibility should be considered from the beginning of every project.
+`
+},
+
+{
+  id: "29",
+  title: "The Importance of Version Control for Developers",
+  excerpt: "Understand why Git and version control systems are essential for modern development.",
+  image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+  category: "Development",
+  date: "May 13, 2026",
+  readTime: "9 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+Version control systems like Git have become essential tools for developers. Whether working individually or in teams, version control helps track changes, manage code, and collaborate effectively.
+
+## Tracking Changes
+
+Git allows developers to track every change made to the codebase. If something breaks, previous versions can be restored easily.
+
+## Team Collaboration
+
+Multiple developers can work on the same project simultaneously without overwriting each other’s work.
+
+## GitHub and Portfolio Value
+
+Hosting projects on GitHub also acts as a portfolio. Recruiters often review GitHub profiles to evaluate coding skills and consistency.
+
+## Conclusion
+
+Learning Git and version control is one of the most important skills every developer should master early in their journey.
+`
+},
+
+{
+  id: "30",
+  title: "Why UI Consistency Matters in Design",
+  excerpt: "Learn how consistent design improves usability and creates better user experiences.",
+  image: "https://images.unsplash.com/photo-1558655146-d09347e92766",
+  category: "UI/UX",
+  date: "May 14, 2026",
+  readTime: "9 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+Consistency is one of the key principles of good UI design. A consistent interface helps users navigate applications more easily and creates a professional appearance.
+
+## Consistent Colors and Typography
+
+Using the same colors, fonts, and spacing across the application creates visual harmony and improves recognition.
+
+## Reusable Components
+
+Modern applications use reusable components like buttons, cards, and navigation bars to maintain consistency.
+
+## Better User Experience
+
+When layouts and interactions remain consistent, users can predict how the application behaves, reducing confusion.
+
+## Conclusion
+
+Consistency improves usability, trust, and overall design quality. It is one of the foundations of modern UI/UX design.
+`
+},
+
+{
+  id: "31",
+  title: "How Developers Can Avoid Burnout",
+  excerpt: "Practical tips to maintain productivity and mental well-being as a developer.",
+  image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+  category: "Productivity",
+  date: "May 15, 2026",
+  readTime: "10 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+Burnout is common among developers because of long working hours, deadlines, and continuous learning pressure. Maintaining balance is important for long-term growth.
+
+## Take Regular Breaks
+
+Short breaks improve focus and reduce mental fatigue. Working continuously for long hours decreases productivity.
+
+## Set Realistic Goals
+
+Trying to learn everything at once creates stress. Focus on one skill or project at a time.
+
+## Maintain Work-Life Balance
+
+Spending time away from screens is important for mental health and creativity.
+
+## Conclusion
+
+Avoiding burnout is essential for sustainable growth. Healthy habits improve both productivity and learning efficiency.
+`
 }
 ];
