@@ -914,5 +914,179 @@ Spending time away from screens is important for mental health and creativity.
 
 Avoiding burnout is essential for sustainable growth. Healthy habits improve both productivity and learning efficiency.
 `
+},
+{
+  id: "32",
+  title: "How Small Daily Improvements Create Big Results",
+  excerpt: "Learn why consistent small improvements are more powerful than short bursts of motivation.",
+  image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+  category: "Productivity",
+  date: "May 16, 2026",
+  readTime: "9 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+Many people wait for motivation before starting work, but successful developers rely more on consistency than motivation. Small improvements made daily can create massive long-term growth. Whether you are learning programming, improving UI design, or building projects, consistency matters more than perfection.
+
+## Focus on Daily Progress
+
+Instead of trying to complete everything in one day, focus on improving a little every day. Learning one concept, solving one bug, or designing one section daily creates momentum.
+
+## Avoid Comparing Yourself
+
+Every developer learns at a different pace. Comparing your progress with others only creates unnecessary pressure and frustration.
+
+## Build Discipline
+
+Discipline helps developers continue even when motivation disappears. Creating routines and sticking to them is extremely important for long-term success.
+
+## Conclusion
+
+Big achievements are usually the result of small consistent actions repeated over time. Focus on steady improvement instead of instant results.
+`
+},
+
+{
+  id: "33",
+  title: "Why Modern Websites Need Fast Performance",
+  excerpt: "Understand why speed and optimization are essential for modern websites.",
+  image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+  category: "Web Development",
+  date: "May 17, 2026",
+  readTime: "10 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+Website performance directly affects user experience, SEO rankings, and engagement. Modern users expect websites to load quickly, and slow websites often lose visitors within seconds.
+
+## User Experience
+
+Fast websites feel smoother and more responsive. Visitors are more likely to stay on websites that load quickly and work properly on all devices.
+
+## SEO Benefits
+
+Search engines like Google prioritize fast-loading websites. Performance optimization improves search rankings and visibility.
+
+## Optimization Techniques
+
+Developers use techniques like:
+- image compression
+- lazy loading
+- code splitting
+- caching
+
+to improve performance.
+
+## Conclusion
+
+Performance optimization is no longer optional. Fast websites create better experiences and improve overall website success.
+`
+},
+
+{
+  id: "34",
+  title: "The Role of Creativity in UI/UX Design",
+  excerpt: "Discover how creativity improves user experience and interface design.",
+  image: "https://images.unsplash.com/photo-1558655146-d09347e92766",
+  category: "UI/UX",
+  date: "May 18, 2026",
+  readTime: "9 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+UI/UX design is not only about colors and layouts. Creativity plays an important role in creating engaging and memorable user experiences. Designers combine logic, usability, and creativity to build interfaces that users enjoy interacting with.
+
+## Understanding Users
+
+Creative solutions begin with understanding user needs. Designers should focus on solving real problems instead of simply creating attractive screens.
+
+## Visual Hierarchy
+
+Good UI design guides users naturally through the interface using spacing, typography, and contrast.
+
+## Simplicity Matters
+
+Creative design does not mean adding unnecessary elements. Simple and clean interfaces often create the best user experience.
+
+## Conclusion
+
+Creativity combined with usability creates interfaces that are both functional and visually appealing.
+`
+},
+
+{
+  id: "35",
+  title: "How Developers Can Build Strong Portfolios",
+  excerpt: "Practical tips to create a portfolio that stands out to recruiters and clients.",
+  image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8",
+  category: "Career",
+  date: "May 19, 2026",
+  readTime: "10 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+A portfolio is one of the most important tools for developers and designers. It showcases skills, projects, and creativity in a practical way.
+
+## Showcase Real Projects
+
+Recruiters prefer practical work over certificates. Include projects that demonstrate problem-solving and technical skills.
+
+## Keep Design Clean
+
+A cluttered portfolio can create confusion. Focus on readability and clear navigation.
+
+## Explain Your Process
+
+Instead of only showing final designs or screenshots, explain how you approached the project and solved problems.
+
+## Keep Updating
+
+An active portfolio shows continuous learning and improvement.
+
+## Conclusion
+
+A strong portfolio increases opportunities and helps developers build credibility in the industry.
+`
+},
+
+{
+  id: "36",
+  title: "Why Learning by Building Projects Works Best",
+  excerpt: "Understand why project-based learning is the fastest way to improve technical skills.",
+  image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+  category: "Development",
+  date: "May 20, 2026",
+  readTime: "10 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+One of the best ways to learn programming and design is by building real projects. Tutorials help developers understand concepts, but projects help them apply knowledge practically.
+
+## Real Problem Solving
+
+Projects expose developers to real challenges such as debugging, optimization, and decision-making.
+
+## Better Understanding
+
+Applying concepts in projects improves retention and understanding compared to passive learning.
+
+## Builds Confidence
+
+Completing projects gives developers confidence and creates motivation to continue learning.
+
+## Portfolio Benefits
+
+Projects can also be showcased in portfolios, making them valuable for internships and job opportunities.
+
+## Conclusion
+
+Learning by building projects is one of the most effective methods for improving technical and creative skills.
+`
 }
+
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
