@@ -1315,7 +1315,238 @@ Developers who stay updated will be better prepared for industry changes.
 
 Modern web technologies continue transforming how users interact with digital products. By focusing on performance, accessibility, responsiveness, and innovation, developers can create experiences that meet growing user expectations.
 `
-}
+},
+{
+  id: "40",
+  title: "How I Built My Personal Blog Using React, TypeScript and Vercel",
+  excerpt: "A complete breakdown of my journey building and deploying my personal blog from scratch.",
+  image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+  category: "Web Development",
+  date: "May 24, 2026",
+  readTime: "15 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+As a Computer Science student and UI/UX enthusiast, I wanted a platform where I could document my learning journey, share projects, and improve my web development skills. Instead of using WordPress or a ready-made blogging platform, I decided to build my own blog using React, TypeScript, and Vercel.
+
+This project became more than just a website. It helped me learn frontend architecture, deployment workflows, SEO fundamentals, custom domain management, and performance optimization.
+
+## Why I Chose React
+
+React is one of the most widely used frontend libraries today. It allows developers to build reusable components and manage complex user interfaces efficiently.
+
+For a blog project, React provided:
+- Component reusability
+- Better project structure
+- Easier scalability
+- Strong ecosystem support
+
+## Why TypeScript
+
+TypeScript adds static typing to JavaScript.
+
+As projects grow larger, maintaining code becomes difficult. TypeScript helped me:
+- Catch errors early
+- Improve code readability
+- Create predictable data structures
+- Reduce debugging time
+
+This was particularly useful while managing blog data and page routing.
+
+## Building the User Interface
+
+Since I have a strong interest in UI/UX design, I wanted the blog to feel modern and professional.
+
+Some design goals included:
+- Clean typography
+- Responsive layouts
+- Mobile-friendly design
+- Fast loading times
+- Easy navigation
+
+I also focused on spacing, readability, and visual hierarchy because these factors directly affect user experience.
+
+## Deployment Challenges
+
+One of the biggest challenges came during deployment.
+
+Initially, I encountered build failures and permission-related issues while deploying to Vercel. Debugging these issues taught me the importance of understanding package dependencies, build scripts, and deployment pipelines.
+
+Through trial and error, I eventually fixed the configuration and successfully deployed the project.
+
+## Connecting a Custom Domain
+
+After deployment, I connected a custom domain to make the website look more professional.
+
+This involved:
+- DNS configuration
+- Domain verification
+- SSL setup
+- Testing redirects
+
+Learning how domains interact with hosting providers gave me valuable practical knowledge.
+
+## SEO Lessons
+
+I learned that simply publishing content is not enough.
+
+Search engines require:
+- Proper metadata
+- Sitemap generation
+- Robots.txt configuration
+- Internal linking
+
+These optimizations improve discoverability and help search engines understand website structure.
+
+## What I Learned
+
+This project taught me:
+- React fundamentals
+- TypeScript integration
+- Deployment workflows
+- SEO basics
+- Domain management
+- Content publishing
+
+Most importantly, it showed me how real-world projects combine multiple skills together.
+
+## Conclusion
+
+Building this blog has been one of the most educational projects I have worked on. It continues to evolve as I learn new technologies and publish new content. More than a portfolio piece, it has become a platform for documenting my growth as a developer and designer.
+`
+},
+{
+  id: "41",
+  title: "Lessons I Learned While Deploying Modern Web Applications",
+  excerpt: "Real deployment mistakes, troubleshooting experiences, and lessons every developer should know.",
+  image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+  category: "Development",
+  date: "May 25, 2026",
+  readTime: "14 min read",
+  author: "Parth Kachare",
+  content: `
+
+## Introduction
+
+Many beginners believe that once coding is complete, the project is finished. In reality, deployment often introduces an entirely new set of challenges.
+
+During multiple deployments of personal projects, I encountered build failures, dependency conflicts, DNS issues, and hosting configuration problems.
+
+These experiences taught me valuable lessons that cannot be learned from tutorials alone.
+
+## Understanding Build Processes
+
+A project may work perfectly on a local machine but fail during deployment.
+
+This happens because production environments are different from local development environments.
+
+Understanding build tools such as Vite and package managers became essential.
+
+## Dependency Management
+
+One major issue I faced involved dependency mismatches.
+
+Some packages worked locally but created build errors on deployment servers.
+
+I learned the importance of:
+- Lock files
+- Version control
+- Consistent package versions
+
+## Debugging Production Errors
+
+Production debugging requires patience.
+
+Instead of randomly changing code, I learned to:
+- Read logs carefully
+- Identify root causes
+- Test systematically
+
+This approach significantly reduced troubleshooting time.
+
+## DNS and Domains
+
+Connecting a custom domain introduced another learning experience.
+
+DNS propagation, A records, and CNAME records were concepts I had only read about before.
+
+Working directly with domain settings helped me understand how websites become accessible globally.
+
+## Importance of Monitoring
+
+Deploying a website is only the beginning.
+
+Monitoring performance, uptime, and user experience is equally important.
+
+A successful deployment should always be followed by testing and validation.
+
+## Conclusion
+
+Deployment challenges often feel frustrating, but they are an important part of becoming a better developer. Each issue solved improves technical understanding and builds confidence for future projects.
+`
+},
+{
+  id: "42",
+  title: "My Experience Designing User Interfaces as a Student",
+  excerpt: "How UI/UX design changed the way I approach digital products and problem solving.",
+  image: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
+  category: "UI/UX",
+  date: "May 26, 2026",
+  readTime: "15 min read",
+  author: "Parth Kachare",
+  content: `
+
+## Introduction
+
+My interest in UI/UX design started with a simple observation. Many applications worked technically but felt frustrating to use.
+
+This made me curious about how interfaces influence user behavior and overall experience.
+
+Over time, UI/UX design became one of the most valuable skills I developed alongside programming.
+
+## Understanding User Needs
+
+Great design begins with understanding users.
+
+Instead of asking what looks attractive, designers should ask:
+- What problem exists?
+- Who is facing the problem?
+- How can the experience be simplified?
+
+These questions create better outcomes.
+
+## Importance of Simplicity
+
+One lesson I learned quickly is that simplicity often outperforms complexity.
+
+Users rarely appreciate unnecessary features or cluttered layouts.
+
+Clear navigation and intuitive interactions create better experiences.
+
+## Visual Hierarchy
+
+Visual hierarchy guides users through content naturally.
+
+Elements such as:
+- Typography
+- Spacing
+- Color contrast
+- Layout structure
+
+help direct attention to important information.
+
+## Design and Development
+
+UI/UX design and frontend development complement each other.
+
+Understanding both disciplines allows developers to build products that are functional and visually appealing.
+
+## Conclusion
+
+UI/UX design taught me that technology should focus on people first. The best digital products solve problems effectively while remaining simple, intuitive, and enjoyable to use.
+`
+},
 
 
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
