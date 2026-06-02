@@ -13,399 +13,1218 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    id: "1",
-    title: "Building Modern React Applications with TypeScript",
-    excerpt:
-      "Learn how to leverage TypeScript's powerful type system to build scalable and maintainable React applications.",
-    content: `TypeScript has become an essential tool for modern React development. In this comprehensive guide, we'll explore how to set up a React project with TypeScript and leverage its powerful features.
-
-## Why TypeScript?
-
-TypeScript adds static typing to JavaScript, helping you catch errors early and providing better IDE support. This is especially valuable in large React applications where prop types and component interfaces can become complex.
-
-## Getting Started
-
-First, create a new React app with TypeScript:
-
-\`\`\`bash
-npx create-react-app my-app --template typescript
-\`\`\`
-
-## Component Props
-
-Define your component props using interfaces:
-
-\`\`\`typescript
-interface ButtonProps {
-  label: string;
-  onClick: () => void;
-  variant?: 'primary' | 'secondary';
-}
-
-const Button: React.FC<ButtonProps> = ({ label, onClick, variant = 'primary' }) => {
-  return <button onClick={onClick}>{label}</button>;
-};
-\`\`\`
-
-## Hooks with TypeScript
-
-TypeScript works seamlessly with React Hooks:
-
-\`\`\`typescript
-const [count, setCount] = useState<number>(0);
-const [user, setUser] = useState<User | null>(null);
-\`\`\`
-
-## Conclusion
-
-TypeScript significantly improves the React development experience by providing type safety, better autocomplete, and early error detection.`,
-    image: "https://images.unsplash.com/photo-1760548425425-e42e77fa38f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGV8ZW58MXx8fHwxNzczNTI0OTg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    category: "React",
-    date: "Mar 12, 2026",
-    readTime: "8 min read",
-    author: "Parth Kachare",
-    featured: true,
-  },
-  {
-  id: "2",
-  title: "The Future of Web Development in 2026",
-  excerpt: "Explore the technologies and trends shaping the future of web development.",
-  image: "https://images.unsplash.com/photo-1772272935464-2e90d8218987",
-  category: "Web Development",
-  date: "Mar 10, 2026",
-  readTime: "10 min read",
+  id: "1",
+  title: "My Journey into UI/UX Design as a Computer Science Student",
+  excerpt: "How I discovered UI/UX design, the mistakes I made, and the lessons that shaped my design journey.",
+  category: "UI/UX",
+  date: "Mar 12, 2026",
+  readTime: "15 min read",
   author: "Parth Kachare",
+  featured: true,
+  image: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
   content: `
 ## Introduction
 
-Web development is evolving faster than ever before. In 2026, developers are not just building websites — they are creating intelligent, fast, and highly interactive experiences.
+When I first started my Computer Science degree, I believed software development was only about writing code. I spent most of my time learning programming languages, building simple applications, and understanding technical concepts. However, as I started exploring modern websites and applications, I realized that users often judge products based on how they feel and interact with them rather than the technologies used behind the scenes.
 
-## Rise of AI in Development
+This realization introduced me to UI/UX design.
 
-Artificial Intelligence is transforming how developers write code. Tools like AI code assistants help generate functions, debug errors, and even suggest improvements.
+Over time, UI/UX became much more than a skill. It became a way of thinking about problems, users, and digital experiences.
 
-This reduces development time and allows developers to focus more on solving real problems rather than writing repetitive code.
+## Discovering Design
 
-## Modern Frameworks and Tools
+My first exposure to design came through observing websites that felt intuitive and visually appealing. I became curious about why certain applications felt easier to use than others.
 
-Frameworks like React, Next.js, and Vue are continuously evolving. Features like server-side rendering, static generation, and edge functions improve performance and scalability.
+Initially, I assumed design was simply choosing colors and arranging elements on a screen. However, I quickly learned that effective design involves understanding user behavior, psychology, accessibility, and usability.
 
-Developers are now choosing tools that provide better developer experience along with performance.
+## Learning Through Practice
 
-## Performance Optimization
+The most valuable lessons came from creating real designs.
 
-Website speed is now a major ranking factor. Techniques such as:
-- Lazy loading
-- Code splitting
-- Image optimization
-- CDN usage
+I began experimenting with:
+- Landing pages
+- Dashboard interfaces
+- Portfolio websites
+- Event posters
+- Club branding projects
 
-are becoming standard practices.
+Each project taught me something new about layout, spacing, typography, and user flow.
 
-## Web3 and Decentralization
+## Challenges Along the Way
 
-Web3 is introducing decentralized applications where users have more control over their data. Blockchain-based apps are becoming more common.
+One of the biggest challenges was balancing creativity with functionality.
+
+Many beginners focus entirely on making interfaces look attractive. I made the same mistake. Some of my early designs looked visually impressive but created confusion for users.
+
+Learning to prioritize usability over decoration changed my approach significantly.
+
+## Impact on Development
+
+Studying design improved my development skills as well.
+
+When building applications, I now think about:
+- Navigation
+- User expectations
+- Information hierarchy
+- Accessibility
+- Mobile responsiveness
+
+This perspective helps create products that feel better to use.
 
 ## Conclusion
 
-The future of web development is intelligent, fast, and user-centric. Developers who adapt to these changes will stay ahead in the industry.
+My journey into UI/UX design taught me that successful digital products are not built around technology alone. They are built around people. Understanding users and solving their problems remains the most important lesson I have learned as a designer.
+`
+},
+  {
+  id: "2",
+  title: "How I Built My Portfolio Website and What I Learned",
+  excerpt: "A detailed look at the planning, design, development, and deployment of my personal portfolio website.",
+  category: "Web Development",
+  date: "Mar 10, 2026",
+  readTime: "16 min read",
+  author: "Parth Kachare",
+  image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+  content: `
+
+## Introduction
+
+A portfolio website is one of the most important assets for students and developers. It acts as a digital representation of skills, projects, and achievements.
+
+I decided to create my own portfolio website because I wanted a professional platform where I could showcase my work and document my learning journey.
+
+## Planning the Structure
+
+Before writing any code, I planned the website structure.
+
+The portfolio included:
+- Home page
+- About page
+- Projects section
+- Contact page
+- Blog section
+
+Planning helped avoid unnecessary redesigns later.
+
+## Design Process
+
+Since I am interested in UI/UX design, I focused heavily on user experience.
+
+The main goals were:
+- Clean layout
+- Modern appearance
+- Easy navigation
+- Mobile responsiveness
+
+I spent considerable time refining spacing, typography, and visual hierarchy.
+
+## Development Phase
+
+The website was developed using:
+- React
+- TypeScript
+- Vite
+
+These technologies provided a modern development experience and excellent performance.
+
+## Challenges
+
+Building a portfolio introduced several challenges:
+- Responsive design
+- Deployment issues
+- Component organization
+- SEO optimization
+
+Solving these challenges improved both my technical and problem-solving abilities.
+
+## Lessons Learned
+
+The project taught me:
+- Frontend architecture
+- UI design principles
+- Hosting workflows
+- Domain management
+- Performance optimization
+
+## Conclusion
+
+Creating a portfolio website was one of the most valuable projects I have completed. It not only improved my skills but also gave me a platform to showcase my work professionally.
 `
 },
 
 {
   id: "3",
-  title: "Mastering Tailwind CSS: Advanced Techniques",
-  excerpt: "Learn how to use Tailwind CSS effectively to build modern user interfaces.",
-  image: "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf",
-  category: "UI/UX",
+  title: "Building an AI-Powered Wooden Prosthetic Leg: My Project Journey",
+  excerpt: "A detailed look at how our team designed and developed an AI-powered wooden prosthetic leg using design thinking and engineering principles.",
+  image: "https://images.unsplash.com/photo-1584515933487-779824d29309",
+  category: "Projects",
   date: "Mar 8, 2026",
-  readTime: "9 min read",
+  readTime: "18 min read",
   author: "Parth Kachare",
   content: `
 ## Introduction
 
-Tailwind CSS has become one of the most popular frameworks for building modern user interfaces. Its utility-first approach allows developers to create designs faster.
+Engineering projects become meaningful when they solve real-world problems. During my academic journey, one of the most impactful projects I worked on was an AI-powered wooden prosthetic leg. The project was inspired by a simple but important question: how can technology help make prosthetic solutions more affordable and accessible?
 
-## Utility-First Approach
+Many advanced prosthetic systems available today provide excellent functionality but remain expensive for a large percentage of users. This challenge motivated us to explore an alternative approach that combined affordability, functionality, and user-centered design.
 
-Tailwind provides small reusable classes such as:
-- padding
-- margin
-- colors
-- flexbox utilities
+## Understanding the Problem
 
-These can be combined to build complex layouts without writing custom CSS.
+Before starting development, our team spent time understanding the difficulties faced by people who rely on prosthetic limbs. Cost was one of the most significant barriers.
 
-## Responsive Design Made Easy
+Advanced prosthetic systems often require:
+- Expensive materials
+- Complex manufacturing
+- High maintenance costs
+- Specialized support
 
-Tailwind includes built-in responsive breakpoints:
-- sm
-- md
-- lg
-- xl
+These factors make adoption difficult for many individuals.
 
-This makes it easy to design layouts for all screen sizes.
+We wanted to create a concept that focused on affordability while maintaining practicality.
 
-## Customization
+## Applying Design Thinking
 
-Developers can extend Tailwind using a configuration file. This allows creating a custom design system with consistent colors, fonts, and spacing.
+The project followed a design thinking approach.
 
-## Performance Benefits
+The stages included:
 
-Tailwind removes unused CSS during production, making your application lightweight and fast.
+### Empathy
+
+We researched existing prosthetic solutions and studied user challenges.
+
+### Define
+
+The problem statement focused on creating a lower-cost prosthetic concept that could potentially improve accessibility.
+
+### Ideate
+
+Multiple concepts were explored before selecting a design that balanced functionality and simplicity.
+
+### Prototype
+
+Sketches, mockups, and structural models were developed to test ideas.
+
+### Testing
+
+Feedback helped identify improvements and potential limitations.
+
+## Why Wood?
+
+Wood was selected because:
+- It is affordable
+- Easily available
+- Lightweight
+- Easy to modify
+
+The goal was not to replace advanced medical prosthetics but to explore cost-effective alternatives for educational and research purposes.
+
+## Role of Artificial Intelligence
+
+AI was incorporated conceptually to improve adaptability and movement analysis.
+
+Potential AI capabilities included:
+- Motion tracking
+- Walking pattern analysis
+- Performance monitoring
+- Predictive adjustments
+
+AI can help future prosthetic systems become more responsive to individual user needs.
+
+## Challenges Faced
+
+Every project introduces challenges.
+
+Some of the difficulties included:
+- Material selection
+- Structural stability
+- Design refinement
+- Integrating technical concepts
+- Presenting complex ideas clearly
+
+These challenges improved our problem-solving abilities and encouraged iterative improvement.
+
+## Project Presentation
+
+The project was later presented through posters, mockups, and demonstrations.
+
+Presenting the project taught me:
+- Visual communication
+- Technical storytelling
+- Team collaboration
+- Public presentation skills
+
+These skills are valuable beyond engineering projects.
+
+## Key Lessons
+
+This project taught me:
+- User-centered design
+- Research techniques
+- Design thinking methodology
+- Collaboration
+- Project documentation
+
+Most importantly, it reinforced the idea that technology should be used to solve meaningful human problems.
 
 ## Conclusion
 
-Tailwind CSS is a powerful and flexible tool that improves development speed and design consistency.
+Working on the AI-powered wooden prosthetic leg project was one of the most rewarding experiences of my academic journey. It combined engineering, design, creativity, and social impact into a single project. Beyond technical knowledge, it taught me how innovation begins with understanding real-world problems and working toward practical solutions.
 `
 },
 
 {
   id: "4",
-  title: "How AI is Transforming Developer Workflows",
-  excerpt: "Discover how AI tools are changing the way developers build software.",
-  image: "https://images.unsplash.com/photo-1702046988296-40db18f155ad",
-  category: "AI",
+  title: "Creating Merchandise and Branding for a College Gaming Club",
+  excerpt: "My experience designing branding, merchandise, and promotional materials for a college gaming club and the lessons I learned about design and marketing.",
+  image: "https://images.unsplash.com/photo-1542751371-adc38448a05e",
+  category: "Design",
   date: "Mar 5, 2026",
-  readTime: "9 min read",
+  readTime: "17 min read",
   author: "Parth Kachare",
   content: `
 ## Introduction
 
-Artificial Intelligence is no longer a future concept. It is actively transforming how developers write code, debug applications, and manage projects.
+One of the most exciting opportunities I had during college was contributing to the branding and merchandise design for Cognisance, our gaming club. Initially, I thought designing merchandise would simply involve creating attractive graphics. However, I quickly realized that successful branding requires understanding the audience, maintaining consistency, and creating a strong identity that people can connect with.
 
-## AI-Powered Code Generation
+This experience taught me valuable lessons about design, communication, teamwork, and marketing.
 
-Developers can now generate code using AI tools. This saves time and reduces repetitive work.
+## Understanding the Purpose of Branding
 
-## Debugging and Error Detection
+Many people think branding is only about logos and colors. In reality, branding is about creating recognition and building a memorable identity.
 
-AI tools help identify bugs and suggest fixes quickly, improving development speed.
+For a gaming club, branding serves several purposes:
+- Building community identity
+- Attracting new members
+- Promoting events
+- Creating professional visibility
+- Increasing engagement
 
-## Automation of Tasks
+The goal was to create designs that represented the energy and creativity of the gaming community.
 
-Tasks like testing, deployment, and documentation are becoming automated using AI.
+## Research and Inspiration
 
-## Learning New Technologies
+Before creating any designs, I researched gaming brands, esports organizations, and community clubs.
 
-AI helps developers learn faster by explaining complex concepts in simple ways.
+I analyzed:
+- Logo styles
+- Color schemes
+- Typography choices
+- Merchandise layouts
+- Social media branding
+
+This helped me understand what works well in gaming-related design while avoiding common mistakes.
+
+## Designing the Visual Identity
+
+The visual identity needed to feel modern, energetic, and memorable.
+
+Important design elements included:
+- Bold typography
+- Strong contrast
+- Gaming-inspired visuals
+- Consistent color palette
+- Clean composition
+
+Maintaining consistency across all materials was important because it helped strengthen recognition.
+
+## Merchandise Design
+
+One of the most enjoyable parts of the project was creating merchandise concepts.
+
+Items included:
+- T-shirts
+- Posters
+- Event banners
+- Social media graphics
+- Promotional materials
+
+Each design required balancing creativity with practicality.
+
+For example, a design that looks good on a screen may not print well on fabric. Understanding these limitations became an important part of the process.
+
+## Working with Team Members
+
+Design projects rarely happen in isolation.
+
+Throughout the project, feedback was collected from:
+- Club members
+- Organizers
+- Faculty
+- Students
+
+Receiving feedback helped improve the final designs significantly.
+
+I learned that criticism should be viewed as an opportunity for improvement rather than a personal attack.
+
+## Challenges Faced
+
+Several challenges appeared during the project.
+
+One challenge involved maintaining consistency across different materials.
+
+Another challenge was ensuring designs appealed to a wide range of students rather than only a small group.
+
+Balancing creativity and clarity also required multiple revisions.
+
+## Marketing Lessons
+
+The project taught me that great design alone is not enough.
+
+Successful promotion requires:
+- Clear messaging
+- Consistent branding
+- Audience understanding
+- Strategic communication
+
+These marketing principles apply far beyond gaming clubs.
+
+## Skills Developed
+
+Through this experience, I improved:
+- Graphic design
+- Branding strategy
+- Communication
+- Collaboration
+- Presentation skills
+
+These skills continue to help me in both academic and personal projects.
 
 ## Conclusion
 
-AI is not replacing developers but enhancing their productivity and efficiency.
+Working on branding and merchandise for a college gaming club was an extremely valuable learning experience. It taught me how design influences perception, how branding builds community identity, and how collaboration leads to stronger results. Most importantly, it showed me that design is not just about making things look attractive—it is about communicating ideas effectively.
 `
 },
 
 {
   id: "5",
-  title: "Building Your First Startup: Lessons Learned",
-  excerpt: "Important lessons every beginner should know before starting a startup.",
-  image: "https://images.unsplash.com/photo-1630442923896-244dd3717b35",
-  category: "Startups",
+  title: "What Working in a Family Loan Business Taught Me About Customer Trust",
+  excerpt: "Lessons learned from helping customers, handling documentation, and understanding the importance of trust in financial services.",
+  image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+  category: "Business",
   date: "Mar 3, 2026",
-  readTime: "10 min read",
+  readTime: "18 min read",
   author: "Parth Kachare",
   content: `
 ## Introduction
 
-Starting a startup is exciting but challenging. Many beginners fail because they skip important steps.
+Alongside my studies, I have had the opportunity to help my father in our family loan business. Initially, I viewed the work as simple administrative support. However, over time, I realized that the experience was teaching me valuable lessons about communication, responsibility, trust, and customer relationships.
 
-## Idea Validation
+Unlike classroom learning, interacting with real customers provides practical insights that cannot be found in textbooks.
 
-Before building anything, validate your idea by talking to users.
+## Understanding Customer Needs
 
-## Building an MVP
+Every customer approaches a loan provider with a unique situation.
 
-Focus on building a Minimum Viable Product instead of a perfect product.
+Some people require financial support for:
+- Education
+- Business expansion
+- Home purchases
+- Emergencies
+- Personal goals
 
-## Team Building
+Understanding these situations taught me the importance of listening carefully before offering solutions.
 
-Having the right team is essential for success.
+## The Importance of Trust
 
-## Marketing Strategy
+Trust is one of the most valuable assets in financial services.
 
-Even great products fail without proper marketing.
+Customers often share:
+- Personal information
+- Financial records
+- Sensitive documents
+
+This creates a responsibility to handle information professionally and respectfully.
+
+Building trust requires honesty, transparency, and consistency.
+
+## Documentation and Accuracy
+
+A large part of the work involves documentation.
+
+Loan applications require:
+- Identity verification
+- Income documents
+- Bank records
+- Supporting paperwork
+
+Even small errors can delay processing.
+
+This taught me the importance of attention to detail and accuracy.
+
+## Communication Skills
+
+Clear communication plays a major role in customer satisfaction.
+
+Many customers may not understand:
+- Banking terminology
+- Eligibility criteria
+- Documentation requirements
+
+Explaining these concepts in simple language improves the overall experience.
+
+## Working with Multiple Banks
+
+One interesting aspect of the business is coordinating with multiple banks.
+
+Different institutions have:
+- Different policies
+- Different requirements
+- Different approval processes
+
+Understanding these differences helped me appreciate the complexity of financial systems.
+
+## Problem Solving in Real Situations
+
+Not every application proceeds smoothly.
+
+Sometimes customers face:
+- Missing documents
+- Eligibility issues
+- Delays
+- Clarification requests
+
+Finding solutions requires patience, organization, and effective communication.
+
+## Lessons About Responsibility
+
+Helping customers with financial matters carries responsibility.
+
+People rely on accurate information to make important decisions.
+
+This experience reinforced the importance of professionalism and accountability.
+
+## Transferable Skills
+
+The experience improved:
+- Communication
+- Organization
+- Customer service
+- Problem solving
+- Professionalism
+
+These skills are valuable in nearly every career path.
 
 ## Conclusion
 
-Start small, learn quickly, and continuously improve your product.
+Working in a family loan business taught me much more than administrative processes. It provided practical experience in customer interaction, trust building, communication, and responsibility. These lessons continue to influence how I approach both professional and personal challenges today.
 `
 },
 
 {
   id: "6",
-  title: "React Server Components: A Complete Guide",
-  excerpt: "Understand how React Server Components improve performance.",
-  image: "https://images.unsplash.com/photo-1591267990532-e5bdb1b0ceb8",
-  category: "React",
+  title: "Building an IoT Weather Monitoring Station Using ESP8266",
+  excerpt: "How I built an IoT-based weather monitoring station using sensors, ESP8266, and real-time environmental data collection.",
+  image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b",
+  category: "IoT",
   date: "Mar 1, 2026",
-  readTime: "9 min read",
+  readTime: "18 min read",
   author: "Parth Kachare",
   content: `
 ## Introduction
 
-React Server Components are a new feature that improves performance and user experience.
+As part of my learning journey in embedded systems and IoT, I worked on building a weather monitoring station capable of collecting environmental information using multiple sensors and transmitting the data through an ESP8266 microcontroller.
 
-## What are Server Components?
+The project allowed me to combine hardware and software while understanding how real-world monitoring systems function.
 
-They allow rendering components on the server instead of the client.
+## Why I Chose This Project
 
-## Benefits
+Weather affects many aspects of daily life including agriculture, transportation, and disaster management.
 
-- Faster load time
-- Reduced bundle size
-- Better SEO
+I wanted to understand how low-cost sensors could be used to collect useful environmental information and display it in a meaningful way.
 
-## Use Cases
+## Components Used
 
-Ideal for data-heavy applications.
+The project included:
+
+- ESP8266
+- DHT11 sensor
+- BMP280 sensor
+- Rain sensor
+- LDR sensor
+
+Each component measured a different environmental parameter.
+
+## Hardware Integration
+
+Connecting multiple sensors required careful planning.
+
+I learned:
+- Circuit connections
+- Power management
+- Sensor calibration
+- Data acquisition
+
+Small wiring mistakes often resulted in incorrect readings.
+
+## Software Development
+
+The ESP8266 collected data and processed readings from different sensors.
+
+The software handled:
+- Sensor initialization
+- Data collection
+- Data formatting
+- Transmission
+
+This introduced me to embedded programming concepts.
+
+## Challenges
+
+The biggest challenges included:
+- Sensor accuracy
+- Unstable Wi-Fi connections
+- Noise in readings
+- Hardware troubleshooting
+
+Debugging hardware issues often took longer than software debugging.
+
+## Results
+
+The final system successfully displayed:
+- Temperature
+- Humidity
+- Atmospheric pressure
+- Rain detection
+- Light intensity
+
+The project demonstrated how affordable IoT systems can provide valuable information.
+
+## Lessons Learned
+
+This project improved my understanding of:
+- Embedded systems
+- Sensor integration
+- IoT architecture
+- Wireless communication
+- Real-world troubleshooting
 
 ## Conclusion
 
-Server components are the future of scalable React applications.
+Building the weather monitoring station was one of the most practical projects I have completed. It showed how technology can be used to collect environmental data and solve real-world problems efficiently.
 `
 },
 
 {
   id: "7",
-  title: "Creating Beautiful User Interfaces with Design Systems",
-  excerpt: "Learn how design systems improve consistency and scalability.",
-  image: "https://images.unsplash.com/photo-1728281144091-b743062a9bf0",
-  category: "UI/UX",
+  title: "How I Learned Flutter as a Beginner and Built My First Mobile Application",
+  excerpt: "My complete experience learning Flutter from scratch, building my first application, and overcoming beginner challenges.",
+  image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+  category: "Mobile Development",
   date: "Feb 28, 2026",
-  readTime: "10 min read",
+  readTime: "18 min read",
   author: "Parth Kachare",
   content: `
 ## Introduction
 
-Design systems help teams build consistent and scalable user interfaces.
+Learning a new technology can feel overwhelming, especially when there are countless tutorials, frameworks, and opinions available online. As a Computer Science student interested in both design and development, I wanted to learn how mobile applications are built. After researching different technologies, I decided to learn Flutter because it allows developers to create applications for multiple platforms using a single codebase.
 
-## Components
+My goal was not just to learn Flutter theoretically but to build a real application that could improve my practical development skills. This decision led me through weeks of experimentation, mistakes, debugging, and learning.
 
-Reusable components such as buttons and cards improve consistency.
+## Why I Chose Flutter
 
-## Benefits
+Flutter immediately caught my attention because of its ability to create beautiful user interfaces while maintaining excellent performance.
 
-- Faster development
-- Better collaboration
-- Consistent UI
+Some reasons why I chose Flutter included:
 
-## Implementation
+- Single codebase for Android and iOS
+- Modern UI capabilities
+- Strong community support
+- Fast development cycle
+- Hot reload functionality
 
-Use tools like Figma and React component libraries.
+As someone interested in UI/UX design, Flutter's widget-based approach felt very appealing because it gave me complete control over interface design.
+
+## Getting Started
+
+The beginning was challenging.
+
+Unlike web development where HTML and CSS separate structure and styling, Flutter uses widgets for almost everything. Initially, I found it confusing to understand how layouts were created.
+
+Concepts such as:
+- Stateless widgets
+- Stateful widgets
+- Scaffold
+- Containers
+- Rows and Columns
+
+seemed complicated.
+
+However, after building small examples repeatedly, the logic started making sense.
+
+## Understanding Widgets
+
+One of the most important lessons in Flutter is understanding widgets.
+
+Everything in Flutter is essentially a widget:
+- Text
+- Buttons
+- Images
+- Navigation bars
+- Layout containers
+
+At first, the widget tree looked overwhelming. Some screens contained multiple nested widgets, making the code difficult to read.
+
+Over time, I learned how to organize widgets into reusable components. This significantly improved maintainability and readability.
+
+## My First Real Project
+
+After understanding the basics, I decided to create a clothing brand application.
+
+The project included:
+- Splash screen
+- Login page
+- Product listings
+- Modern user interface
+- Navigation between screens
+
+Instead of simply copying a tutorial, I wanted to implement features independently.
+
+This decision forced me to think critically and solve problems on my own.
+
+## UI Design Challenges
+
+As someone interested in UI/UX design, I wanted the application to look professional.
+
+However, translating design ideas into working code was not easy.
+
+Common challenges included:
+
+- Alignment issues
+- Responsive layouts
+- Consistent spacing
+- Typography selection
+- Color management
+
+I learned that good design requires both creativity and technical implementation.
+
+## State Management
+
+One concept that initially confused me was state management.
+
+Applications constantly change based on user interactions.
+
+Examples include:
+- Login status
+- Cart updates
+- Form inputs
+- Dynamic content
+
+Understanding how Flutter updates the interface when data changes was an important milestone in my learning journey.
+
+## Debugging Problems
+
+No project is complete without bugs.
+
+Some issues I encountered included:
+
+- Layout overflow errors
+- Navigation problems
+- Incorrect widget hierarchy
+- State update issues
+
+Initially, debugging felt frustrating.
+
+Eventually, I learned how to:
+- Read error messages carefully
+- Break large problems into smaller parts
+- Test incrementally
+
+These skills became valuable beyond Flutter development.
+
+## Importance of Practice
+
+One lesson became very clear throughout the learning process:
+
+Watching tutorials is not enough.
+
+Real understanding develops when you:
+- Build projects
+- Make mistakes
+- Fix bugs
+- Experiment independently
+
+Projects reveal knowledge gaps that tutorials often hide.
+
+## What Flutter Taught Me
+
+Learning Flutter improved more than just my mobile development skills.
+
+It helped me develop:
+- Problem-solving ability
+- UI design thinking
+- Code organization skills
+- Debugging techniques
+- Project planning skills
+
+These lessons are transferable to many areas of software development.
+
+## Advice for Beginners
+
+If you are starting Flutter today:
+
+- Focus on fundamentals first
+- Build small projects
+- Don't fear mistakes
+- Learn by creating
+- Avoid tutorial dependency
+
+Consistency matters far more than speed.
 
 ## Conclusion
 
-Design systems are essential for modern product development.
+Learning Flutter as a beginner was both challenging and rewarding. The process taught me valuable technical and creative skills while helping me understand how mobile applications are designed and developed. Looking back, the difficulties I faced were an essential part of the learning journey. Every challenge solved increased my confidence and pushed me closer to becoming a better developer.
 `
 },
 
 {
   id: "8",
-  title: "Team Collaboration in Software Engineering",
-  excerpt: "Best practices to improve teamwork in software development.",
-  image: "https://images.unsplash.com/photo-1748256622734-92241ae7b43f",
-  category: "Software Engineering",
+  title: "Managing College Activities While Learning Technology",
+  excerpt: "Balancing academics, club responsibilities, projects, and personal development as a student taught me valuable lessons about time management and growth.",
+  image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+  category: "Student Life",
   date: "Feb 26, 2026",
-  readTime: "9 min read",
+  readTime: "17 min read",
   author: "Parth Kachare",
   content: `
 ## Introduction
 
-Collaboration is key to successful software development.
+One of the biggest challenges students face is balancing multiple responsibilities at the same time. During my college journey, I found myself managing academics, technical projects, club activities, design work, and personal development simultaneously. Initially, I believed I needed to focus on only one area to succeed. However, over time I learned that growth often happens when you learn to manage different responsibilities effectively.
 
-## Agile Methodology
+Being part of college activities while continuously learning technology has been one of the most rewarding experiences of my student life.
 
-Agile helps teams work efficiently and adapt quickly.
+## The Reality of Student Life
 
-## Communication
+Many people assume students only attend classes and complete assignments. In reality, college provides opportunities far beyond academics.
 
-Clear communication prevents misunderstandings.
+Students often participate in:
+- Technical projects
+- Clubs and communities
+- Competitions
+- Workshops
+- Events
+- Internships
 
-## Tools
+Each opportunity contributes to personal and professional growth.
 
-Use tools like Git, Slack, and Jira.
+## Joining Student Communities
+
+One of the most valuable decisions I made was participating in college organizations and activities.
+
+These experiences exposed me to:
+- Teamwork
+- Event management
+- Communication
+- Leadership
+
+Working with people from different backgrounds improved my confidence and helped me develop practical skills that are difficult to learn through textbooks alone.
+
+## Balancing Projects and Academics
+
+As a Computer Science student, technical projects became an important part of my learning process.
+
+Projects such as:
+- Portfolio websites
+- Blog platforms
+- UI/UX design work
+- IoT systems
+
+required significant time and effort.
+
+Balancing project work with academic responsibilities was often challenging. There were periods when deadlines overlapped and priorities had to be adjusted carefully.
+
+## Learning Time Management
+
+One lesson became very clear: time management is a skill.
+
+I began using simple techniques such as:
+- Creating daily task lists
+- Prioritizing important work
+- Breaking large tasks into smaller goals
+- Setting realistic deadlines
+
+These methods reduced stress and improved productivity.
+
+## Dealing with Pressure
+
+Managing multiple responsibilities inevitably creates pressure.
+
+During event preparations, project submissions, and examinations, there were times when everything seemed urgent.
+
+Learning how to remain calm and focus on one task at a time became essential.
+
+Rather than trying to solve everything simultaneously, I learned to approach challenges step by step.
+
+## The Importance of Consistency
+
+Consistency proved more valuable than motivation.
+
+Motivation fluctuates, but small daily progress creates long-term results.
+
+Even spending one hour daily on skill development can produce significant improvement over time.
+
+This approach helped me continue learning despite a busy schedule.
+
+## Communication Skills
+
+Participation in college activities improved my communication skills significantly.
+
+I learned:
+- How to coordinate with teams
+- How to present ideas
+- How to handle feedback
+- How to communicate professionally
+
+These skills have been useful in both academic and technical environments.
+
+## Personal Growth
+
+Beyond technical knowledge, balancing multiple responsibilities taught me important life lessons.
+
+I developed:
+- Discipline
+- Accountability
+- Adaptability
+- Leadership
+- Problem-solving ability
+
+These qualities continue to help me in everyday situations.
 
 ## Conclusion
 
-Strong collaboration leads to better products and faster delivery.
+Managing college activities while learning technology has been challenging but incredibly rewarding. The experience taught me that growth rarely happens within a comfort zone. By balancing academics, projects, and extracurricular responsibilities, I gained practical skills, valuable experiences, and a better understanding of how to manage responsibilities effectively.
 `
 },
 
 {
   id: "9",
-  title: "Next.js 15: What's New and Exciting",
-  excerpt: "Explore the latest features introduced in Next.js 15.",
-  image: "https://images.unsplash.com/photo-1643116774075-acc00caa9a7b",
-  category: "Next.js",
+  title: "What Rebuilding My Portfolio Taught Me About Web Design",
+  excerpt: "Lessons learned while redesigning my portfolio website and improving both user experience and visual design.",
+  image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+  category: "Web Design",
   date: "Feb 24, 2026",
-  readTime: "9 min read",
+  readTime: "18 min read",
   author: "Parth Kachare",
   content: `
 ## Introduction
 
-Next.js 15 introduces powerful features for developers.
+A portfolio website is more than a collection of projects. It represents who you are, how you think, and how you solve problems.
 
-## Performance Improvements
+When I first created my portfolio, I focused mainly on making it look attractive. However, after reviewing my work and receiving feedback, I realized that good web design is about much more than visual appearance.
 
-Faster rendering and optimized builds.
+Rebuilding my portfolio became a valuable learning experience that taught me important lessons about usability, design, and user experience.
 
-## New Features
+## Why I Decided to Redesign
 
-- Improved routing
-- Better server components
-- Enhanced developer tools
+My original portfolio had several issues.
+
+Although it looked decent, it suffered from:
+- Poor navigation
+- Weak content structure
+- Limited responsiveness
+- Inconsistent spacing
+
+Visitors could see projects, but the overall experience felt incomplete.
+
+I wanted to create something that felt more professional and user-friendly.
+
+## Understanding User Experience
+
+One of the biggest lessons I learned was that users should never feel confused.
+
+When visitors arrive on a website, they should quickly understand:
+- Who you are
+- What you do
+- Why your work matters
+
+If users need to search for basic information, the design is not doing its job effectively.
+
+## Improving Navigation
+
+Navigation plays a critical role in usability.
+
+I simplified navigation by:
+- Reducing unnecessary links
+- Creating clear sections
+- Improving menu organization
+
+These changes made the website easier to explore.
+
+## Importance of Visual Hierarchy
+
+Visual hierarchy determines where users focus their attention.
+
+I improved hierarchy through:
+- Larger headings
+- Better spacing
+- Consistent typography
+- Clear section separation
+
+These changes made content easier to scan and understand.
+
+## Mobile Responsiveness
+
+A significant percentage of users visit websites through mobile devices.
+
+My early portfolio looked acceptable on desktop but struggled on smaller screens.
+
+Improving responsiveness required:
+- Flexible layouts
+- Better spacing
+- Mobile-friendly navigation
+- Responsive typography
+
+This significantly improved the user experience.
+
+## Performance Optimization
+
+Design is important, but speed matters too.
+
+I optimized:
+- Images
+- Components
+- Asset loading
+
+The result was a faster and smoother experience.
+
+## Content Matters
+
+One mistake many students make is focusing entirely on design while ignoring content.
+
+Visitors want to understand:
+- Projects
+- Skills
+- Experience
+- Achievements
+
+Strong content gives context to design.
+
+## Lessons Learned
+
+The redesign taught me:
+- User experience principles
+- Responsive design techniques
+- Information architecture
+- Content strategy
+- Performance optimization
+
+Most importantly, it taught me that design should always serve the user.
 
 ## Conclusion
 
-Next.js continues to be a top choice for modern web development.
+Rebuilding my portfolio was one of the best learning experiences I have had as a developer and designer. It showed me that effective web design combines aesthetics, usability, performance, and content. Every redesign decision improved not only the website but also my understanding of user-centered design.
 `
 },
   {
   id: "10",
-  title: "10 UI/UX Design Principles Every Developer Should Know",
-  excerpt: "Master the essential UI/UX principles to build user-friendly and visually appealing applications.",
+  title: "The Biggest Mistakes Students Make When Building Portfolios",
+  excerpt: "Common portfolio mistakes that prevent students from standing out and practical strategies to build a portfolio that creates opportunities.",
   image: "https://images.unsplash.com/photo-1559028012-481c04fa702d",
-  category: "UI/UX",
+  category: "Career",
   date: "Apr 10, 2026",
-  readTime: "10 min read",
+  readTime: "18 min read",
   author: "Parth Kachare",
   content: `
 ## Introduction
 
-UI/UX design is more than just aesthetics. It plays a crucial role in how users interact with digital products. A well-designed interface improves usability, increases engagement, and enhances overall user satisfaction.
+A portfolio is often the first impression recruiters, clients, and collaborators have of a student. Unfortunately, many students spend months learning skills and building projects but fail to present their work effectively. A weak portfolio can hide strong abilities, while a strong portfolio can create opportunities even before an interview begins.
 
-## 1. Simplicity
+During my journey as a Computer Science student interested in UI/UX design and development, I have explored multiple portfolio designs, reviewed many student portfolios, and continuously improved my own website. Through this process, I noticed several common mistakes that repeatedly reduce the impact of otherwise talented individuals.
 
-Users prefer simple interfaces. Avoid unnecessary elements and focus only on what matters. A clean layout reduces confusion and improves usability.
+This article discusses those mistakes and explains how students can avoid them.
 
-## 2. Consistency
+## Mistake 1: Treating the Portfolio Like a Resume
 
-Consistency ensures users don’t have to relearn the interface. Use the same colors, fonts, and layouts across pages.
+Many students simply copy their resume onto a website.
 
-## 3. Visual Hierarchy
+The portfolio becomes:
+- A list of skills
+- A list of technologies
+- A list of certificates
 
-Guide users by organizing elements based on importance. Use size, color, and spacing to highlight key elements.
+without demonstrating any actual work.
 
-## 4. Feedback
+Recruiters are not impressed by long skill lists. They want evidence.
 
-Every user action should have feedback. Buttons should respond, forms should confirm submission, and loading states should be visible.
+Instead of writing:
 
-## 5. Accessibility
+"React, JavaScript, Node.js, MongoDB"
 
-Design for everyone, including users with disabilities. Use proper contrast, readable fonts, and keyboard navigation.
+show projects that demonstrate how those technologies were used.
 
-## 6. Mobile-First Design
+A project provides context and proves practical ability.
 
-Most users access apps on mobile. Always design for smaller screens first.
+## Mistake 2: Too Many Projects
 
-## 7. Performance
+Another common mistake is adding every project ever created.
 
-Fast-loading interfaces improve user retention. Optimize images and code.
+Students often include:
+- Tutorial projects
+- Incomplete experiments
+- Small assignments
+- Duplicate concepts
+
+A portfolio should focus on quality rather than quantity.
+
+Three excellent projects usually create a stronger impression than fifteen average projects.
+
+When selecting projects, ask:
+
+- Does this solve a real problem?
+- Did I learn something significant?
+- Can I explain my process clearly?
+- Does this represent my current skill level?
+
+If the answer is no, consider removing it.
+
+## Mistake 3: Poor Project Descriptions
+
+Many portfolios display project screenshots but provide almost no explanation.
+
+Visitors should understand:
+
+- What problem was solved
+- Why the project was built
+- Technologies used
+- Challenges faced
+- Results achieved
+
+Without context, screenshots become decoration rather than evidence.
+
+Good project descriptions tell a story.
+
+## Mistake 4: Ignoring Mobile Users
+
+Today, many recruiters browse websites on mobile devices.
+
+A portfolio that looks perfect on a desktop but breaks on a phone creates a poor impression.
+
+Common mobile issues include:
+
+- Overflowing content
+- Tiny text
+- Broken layouts
+- Difficult navigation
+
+Responsive design should never be treated as an afterthought.
+
+Testing across different devices is essential.
+
+## Mistake 5: Weak About Section
+
+The About page is often overlooked.
+
+Many students write:
+
+"Hi, I'm a student who likes technology."
+
+This provides very little value.
+
+A stronger introduction explains:
+
+- Who you are
+- What you study
+- Your interests
+- Your goals
+- Your experience
+
+People connect with stories and personalities.
+
+A good About section helps visitors understand the person behind the projects.
+
+## Mistake 6: Missing Contact Information
+
+A surprising number of portfolios make it difficult to contact the owner.
+
+Every portfolio should include:
+
+- Email address
+- LinkedIn profile
+- GitHub profile
+- Contact form
+
+If visitors cannot easily reach you, opportunities may be lost.
+
+## Mistake 7: Focusing Only on Design
+
+Some students spend weeks perfecting animations and visual effects but provide little meaningful content.
+
+While aesthetics matter, content remains more important.
+
+A beautiful website with weak content is less valuable than a simple website with strong projects and explanations.
+
+Design should support communication rather than distract from it.
+
+## Mistake 8: No Personal Projects
+
+Many portfolios only contain academic assignments.
+
+Assignments demonstrate effort, but personal projects often reveal curiosity, initiative, and creativity.
+
+Examples include:
+
+- Portfolio websites
+- Mobile applications
+- Blogs
+- IoT projects
+- Startup concepts
+
+Personal projects show motivation beyond classroom requirements.
+
+## Mistake 9: Not Updating the Portfolio
+
+A portfolio should evolve continuously.
+
+As skills improve:
+
+- Projects should be updated
+- Weak projects should be removed
+- New experiences should be added
+
+An outdated portfolio creates the impression that learning has stopped.
+
+## Mistake 10: Ignoring User Experience
+
+The portfolio itself is a project.
+
+Visitors should easily understand:
+
+- Navigation
+- Content structure
+- Project organization
+
+If users feel confused, frustrated, or lost, the website is not serving its purpose.
+
+Good user experience improves engagement and professionalism.
+
+## What Recruiters Actually Look For
+
+Students often assume recruiters focus only on technical skills.
+
+In reality, recruiters evaluate:
+
+- Problem solving
+- Communication
+- Initiative
+- Project quality
+- Learning ability
+
+A portfolio should demonstrate these qualities clearly.
+
+## Lessons From Building My Own Portfolio
+
+When creating my own portfolio, I made many of the mistakes discussed in this article.
+
+Initially, I focused heavily on appearance and underestimated the importance of content.
+
+Over time, I realized that strong project explanations, clear navigation, and meaningful experiences created a much bigger impact than visual effects alone.
+
+Every redesign improved both the website and my understanding of user-centered design.
 
 ## Conclusion
 
-Following these principles will significantly improve your UI/UX design and create better user experiences.
+A portfolio is more than a collection of projects. It is a representation of your skills, experiences, and growth. Students who avoid common mistakes and focus on meaningful content create stronger impressions and increase their chances of finding opportunities.
+
+The goal is not to create the most complicated website. The goal is to communicate your abilities clearly and effectively while demonstrating genuine learning and practical experience.
 `
 },
 
