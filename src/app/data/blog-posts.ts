@@ -1547,6 +1547,285 @@ Understanding both disciplines allows developers to build products that are func
 UI/UX design taught me that technology should focus on people first. The best digital products solve problems effectively while remaining simple, intuitive, and enjoyable to use.
 `
 },
+{
+  id: "43",
+  title: "Building an IoT Weather Monitoring System: What I Learned",
+  excerpt: "A practical overview of designing and building an IoT weather monitoring station using sensors and microcontrollers.",
+  image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b",
+  category: "IoT",
+  date: "May 27, 2026",
+  readTime: "15 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+One of the most interesting projects I worked on as a Computer Science student was an IoT-based weather monitoring system. The goal of the project was to collect environmental data such as temperature, humidity, rainfall, atmospheric pressure, and light intensity in real time.
+
+Unlike tutorial-based projects, this project involved integrating multiple sensors, handling hardware issues, troubleshooting communication errors, and presenting meaningful data to users.
+
+## Why Weather Monitoring Matters
+
+Weather data affects agriculture, transportation, disaster management, and daily decision-making. Traditional weather stations are expensive, making low-cost IoT alternatives attractive for educational institutions and small organizations.
+
+## Components Used
+
+The project utilized:
+- ESP8266 Wi-Fi module
+- DHT11 temperature and humidity sensor
+- BMP280 pressure sensor
+- Rain sensor
+- LDR sensor
+
+Each component served a specific purpose in collecting environmental information.
+
+## Development Challenges
+
+The biggest challenge was sensor calibration. Raw sensor values often contained inconsistencies that required validation and testing.
+
+Another challenge involved network connectivity. Since the ESP8266 depends on Wi-Fi communication, unstable networks sometimes interrupted data transmission.
+
+## Data Visualization
+
+Collecting data is only one part of the process. Presenting data meaningfully is equally important.
+
+The system displayed:
+- Temperature trends
+- Humidity levels
+- Rain detection status
+- Pressure readings
+- Light intensity measurements
+
+Visual representation made the information easier to understand.
+
+## Lessons Learned
+
+This project taught me:
+- Hardware integration
+- Embedded systems fundamentals
+- Wireless communication
+- Sensor calibration
+- Real-world troubleshooting
+
+Most importantly, it demonstrated how software and hardware work together to solve practical problems.
+
+## Conclusion
+
+The weather monitoring system was more than an academic project. It provided valuable experience in IoT development and showed how technology can be used to collect and analyze environmental data efficiently.
+`
+},
+{
+  id: "44",
+  title: "Cybersecurity Basics Every Student Should Understand",
+  excerpt: "Essential cybersecurity concepts that can help students stay safe in today's digital world.",
+  image: "https://images.unsplash.com/photo-1510511459019-5dda7724fd87",
+  category: "Cybersecurity",
+  date: "May 28, 2026",
+  readTime: "16 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+As technology becomes a larger part of our lives, cybersecurity is no longer a topic reserved for professionals. Every student who uses smartphones, laptops, cloud storage, or social media should understand basic cybersecurity principles.
+
+Unfortunately, many users underestimate digital threats until they become victims of scams, phishing attacks, or data breaches.
+
+## Understanding Cybersecurity
+
+Cybersecurity refers to protecting systems, networks, and information from unauthorized access, attacks, and damage.
+
+Its goal is to ensure:
+- Confidentiality
+- Integrity
+- Availability
+
+of information.
+
+## Common Threats
+
+Students frequently encounter:
+- Phishing emails
+- Fake websites
+- Malware
+- Password theft
+- Social engineering attacks
+
+Many attacks succeed because users trust malicious content without verification.
+
+## Importance of Strong Passwords
+
+Weak passwords remain one of the largest security risks.
+
+A strong password should:
+- Be unique
+- Contain multiple character types
+- Avoid personal information
+- Use password managers when possible
+
+## Multi-Factor Authentication
+
+MFA provides an additional security layer beyond passwords.
+
+Even if attackers obtain credentials, MFA can prevent unauthorized access.
+
+## Safe Browsing Practices
+
+Students should:
+- Verify website URLs
+- Avoid suspicious downloads
+- Keep software updated
+- Use secure connections
+
+Simple habits significantly reduce risk.
+
+## Cybersecurity Careers
+
+The demand for cybersecurity professionals continues to grow globally. Students interested in technology should explore fields such as:
+- Ethical hacking
+- Security analysis
+- Digital forensics
+- Cloud security
+
+## Conclusion
+
+Cybersecurity awareness is essential in modern society. Understanding basic security practices helps students protect their information and develop responsible digital habits.
+`
+},
+{
+  id: "45",
+  title: "How Students Can Build a Portfolio That Gets Noticed",
+  excerpt: "Practical portfolio-building strategies for students seeking internships and opportunities.",
+  image: "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931",
+  category: "Career",
+  date: "May 29, 2026",
+  readTime: "15 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+Many students focus entirely on academic scores while overlooking one of the most valuable professional assets: a portfolio.
+
+A portfolio demonstrates practical ability and provides evidence of skills beyond classroom learning.
+
+## Why Portfolios Matter
+
+Recruiters often evaluate:
+- Projects
+- Problem-solving ability
+- Initiative
+- Creativity
+
+A strong portfolio showcases all of these factors.
+
+## Include Real Projects
+
+Instead of adding every small assignment, focus on projects that:
+- Solve meaningful problems
+- Demonstrate technical skills
+- Show measurable outcomes
+
+Quality matters more than quantity.
+
+## Explain Your Process
+
+Many students only show screenshots.
+
+A better approach includes:
+- Problem statement
+- Research
+- Development process
+- Challenges faced
+- Final results
+
+This demonstrates deeper understanding.
+
+## Maintain Professional Design
+
+A portfolio should be:
+- Clean
+- Responsive
+- Easy to navigate
+
+Users should quickly understand who you are and what you do.
+
+## Keep Improving
+
+A portfolio should evolve continuously. As skills improve, older projects can be updated or replaced.
+
+## Conclusion
+
+A strong portfolio often creates opportunities before interviews even begin. Students who invest time in building quality portfolios position themselves for greater professional success.
+`
+},
+{
+  id: "46",
+  title: "What Managing College Activities Taught Me About Leadership",
+  excerpt: "Lessons learned from organizing events, managing teams, and balancing academics with responsibilities.",
+  image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+  category: "Personal Growth",
+  date: "May 30, 2026",
+  readTime: "15 min read",
+  author: "Parth Kachare",
+  content: `
+## Introduction
+
+Technical skills are important, but leadership and communication skills often determine long-term success. Through participation in college clubs, event management activities, and collaborative projects, I gained valuable lessons that extended far beyond academics.
+
+## Responsibility Changes Perspective
+
+Managing activities taught me that leadership involves responsibility rather than authority.
+
+Leaders must:
+- Coordinate teams
+- Solve problems
+- Manage deadlines
+- Support team members
+
+Success depends on collective effort rather than individual achievement.
+
+## Communication Matters
+
+Many project delays occur because of poor communication.
+
+Clear expectations, regular updates, and active listening significantly improve team performance.
+
+## Handling Pressure
+
+Events often involve unexpected problems.
+
+From scheduling conflicts to resource limitations, adaptability becomes essential. These experiences improved my ability to remain calm under pressure.
+
+## Team Collaboration
+
+Different individuals bring different strengths.
+
+Learning how to coordinate diverse talents helped me understand the importance of teamwork and collaboration.
+
+## Balancing Multiple Priorities
+
+Managing academics, projects, and extracurricular responsibilities required effective time management.
+
+This taught me:
+- Prioritization
+- Planning
+- Discipline
+
+skills that continue to be useful in daily life.
+
+## Long-Term Benefits
+
+Leadership experiences develop:
+- Confidence
+- Decision-making ability
+- Professional communication
+- Problem-solving skills
+
+These qualities are valuable regardless of career path.
+
+## Conclusion
+
+Managing college activities provided lessons that textbooks cannot teach. The experience improved my leadership abilities, strengthened my communication skills, and prepared me for future professional challenges.
+`
+},
 
 
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
